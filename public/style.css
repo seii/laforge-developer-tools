@@ -1,0 +1,199 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+}
+
+.button-row {
+  text-align: center;
+}
+
+.button-row > .lfo-button-link {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 634px) {
+  .button-row {
+    text-align: left;
+  }
+}
+
+.eyewear-pane {
+  float: right;
+  height: 240px;
+  width: 428px;
+}
+
+.eyewear-view {
+  width: 100%;
+  background: url('assets/socialFLO%20background.png') no-repeat center fixed;
+  background-position: -45px -45px;
+  background-size: cover;
+  height: 450px;
+  padding: 20px 35px;
+}
+
+.jellyfish-logo {
+  bottom: 15px;
+  height: 40px;
+  position:absolute;
+  right: 15PX;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  color: #808080;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 40px;
+}
+
+.header-logo {
+  margin-left: 45%;
+  position: absolute;
+  width: 130px;
+}
+
+.header-left {
+  margin-right: auto;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.result-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mod-name {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #000;
+  height: 100%;
+}
+
+.lfo-button {
+  background-color: #000;
+  border: white 1px solid;
+  color: #fff;
+  height: 50px;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 300px;
+}
+
+.status-bar {
+  height: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.status-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.status-logo img {
+  height: 17px;
+  margin-left: -187px;
+  margin-top: 10px;
+  width: 171px;
+}
+
+.status-running {
+  border-bottom: 2px solid #7ED321;
+  border-top: 2px solid #7ED321;
+  color: #fff;
+  float: left;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+.simulateTouchInput {
+  animation: slideCircle 3s infinite;
+  background: url('assets/Selector.png') no-repeat;
+  height: 55px;
+  position: absolute;
+  width: 55px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 100;
+  bottom: 0;
+  position: absolute;
+  left: 42%;
+}
+
+@keyframes slideCircle {
+  from {
+    left: 85%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-text {
+    font-size: 10px;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo {
+    display: none;
+  }
+  .mod-name {
+    font-size: 12px;
+  }
+}
