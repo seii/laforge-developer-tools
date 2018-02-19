@@ -46,7 +46,7 @@ a {
 
 .eyewear-view {
   width: 100%;
-  background: url('assets/socialFLO%20background.png') no-repeat center fixed;
+  background: url('https://cdn.glitch.com/ee5f60f9-5a06-44de-938e-e25a35f34346%2FsocialFLO%20background.png?1504233807523') no-repeat center fixed;
   background-position: -45px -45px;
   background-size: cover;
   height: 450px;
@@ -157,7 +157,7 @@ a {
 
 .simulateTouchInput {
   animation: slideCircle 3s infinite;
-  background: url('assets/Selector.png') no-repeat;
+  background: url('https://cdn.glitch.com/ee5f60f9-5a06-44de-938e-e25a35f34346%2FSelector.png?1505444076373') no-repeat;
   height: 55px;
   position: absolute;
   width: 55px;
