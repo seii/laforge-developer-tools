@@ -5,7 +5,12 @@
 Unfortunately, the version used as of this writing (February 19, 2018) only works on Google Chrome browsers due to its utilization of HTML5 Web Components. That's not a bad thing, and hopefully all browsers will be able to implement that standard soon. However, most browsers still need polyfills as the standard isn't widely implemented yet.
 
 ## Installation
-While the polyfill libraries have been added to `package.json`, it will still be necessary to copy all `.js` files from `node_modules/@webcomponents/webcomponentsjs` into the `public/lib` folder after the first `npm install` is run. The copied files will allow the auto-loader component to choose which library is necessary based on browser capabilities.
+- Clone this repository
+- Run `npm install`
+- Copy all `.js` files from `node_modules/@webcomponents/webcomponentsjs` into the `public/lib` folder
+- Run `npm start`
+
+(The copied files will allow the auto-loader component to choose which library is necessary based on browser capabilities.)
 
 ## Differences
 - **Polyfill:** The [official Web Components site](https://www.webcomponents.org/) has already implemented polyfills, along with [instructions](https://www.webcomponents.org/polyfills) on how to use them. I have taken their advice and inserted the polyfill code and libraries into LAFORGE's existing simulator code.
