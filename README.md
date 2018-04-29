@@ -1,5 +1,5 @@
 # Tweaks to LAFORGE Shima Simulator
-[LAFORGE Optical](https://laforgeoptical.com) is making an impressive Augmented Reality pair of prescription glasses called [Shima](https://laforgeoptical.com/pages/meet-shima). They have released a [simulator]() for development purposes.
+[LAFORGE Optical](https://laforgeoptical.com) is making an impressive Augmented Reality pair of prescription glasses called [Shima](https://laforgeoptical.com/pages/meet-shima). They have released a [simulator](https://eyewear-simulator.glitch.me/) for development purposes.
 
 ## Problem
 Unfortunately, the version used as of this writing (February 19, 2018) only works on Google Chrome browsers due to its utilization of HTML5 Web Components. That's not a bad thing, and hopefully all browsers will be able to implement that standard soon. However, most browsers still need polyfills as the standard isn't widely implemented yet.
